@@ -1,7 +1,7 @@
-# zola trash
+# Zola builds
 zola
 public
 static/processed_images
 
-# os trash
+# MacOS dumps
 .DS_Store

@@ -12,19 +12,24 @@ tags = ["hac", "velit", "risus"]
 [extra]
 comments = true
 lang = "pt"
-image = "https://zola386.netlify.app/lorem-ipsum/crt-phosphor-dots.png"
+image = "https://kibertexnik.uz/posts/lorem-ipsum/crt-phosphor-dots.png"
 +++
 
 Posuere urna nec tincidunt praesent semper. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Mattis rhoncus urna neque viverra justo nec ultrices dui. Nulla pellentesque dignissim enim sit. Arcu ac tortor dignissim convallis aenean et.
 
 # Lorem ipsum
+
 ## dolor sit amet
+
 ### consectetur adipiscing elit
+
 #### sed do eiusmod tempor incididunt
+
 ##### ut labore et dolore magna aliqua
+
 ###### At tellus at urna condimentum mattis pellentesque
 
-**At tellus at urna** condimentum *mattis pellentesque* id nibh tortor.
+**At tellus at urna** condimentum _mattis pellentesque_ id nibh tortor.
 
 > Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Nunc vel risus commodo viverra. Aliquet nec ullamcorper sit amet risus nullam eget felis. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Interdum velit euismod in pellentesque massa.
 
@@ -39,13 +44,13 @@ Posuere urna nec tincidunt praesent semper. Viverra mauris in aliquam sem fringi
 Tristique risus `nec feugiat in fermentum` posuere. Consequat nisl vel pretium lectus
 
 ![quam id.](crt-phosphor-dots.png)
-{{ resize_image(path="lorem-ipsum/crt-phosphor-dots.png", width=400, caption="Figure 1.") }}
+{{ resize_image(path="posts/lorem-ipsum/crt-phosphor-dots.png", width=400, caption="Figure 1.") }}
 
 ```python
 class ECB(object):
     def enc(self, m, k):
         cipher = AES.new(key(k), AES.MODE_ECB)
-        return b64encode(cipher.encrypt(pad(m.encode(encoding), 
+        return b64encode(cipher.encrypt(pad(m.encode(encoding),
             AES.block_size)))
     def dec(self, c, k):
         raw = b64decode(c)
